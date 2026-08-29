@@ -1,0 +1,44 @@
+print("Multiplication")
+print(2 ** 3)
+print(2 ** 3.)
+print(2. ** 3)
+print(2. ** 3.)
+
+print("Division")
+print(6 // 3)
+print(6 // 3.)
+print(6. // 3)
+print(6. // 3.)
+
+print("Modulus")
+print(9 % 5)
+
+print(9 % 6 % 2)
+
+print(6 // 3)
+print(6 // 3.)
+print(6. // 3)
+print(6. // 3.)
+
+print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
+
+myVar1 = """I am fine.
+My name is Yasir
+Today is sunny day"""
+
+myVar2 = '''I am fine.
+My name is Yasir
+Today is sunny day'''
+
+print (myVar1)
+print (myVar2)
+
+
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = 11.88
+kilometers_to_miles = 7.61 
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
